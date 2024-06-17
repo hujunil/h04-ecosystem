@@ -1,0 +1,13 @@
+{
+  "cSpell.words": [
+    "hget",
+    "hgetall",
+    "hmap",
+    "hmget",
+    "hset",
+    "peekable",
+    "sadd",
+    "sismember",
+    "thiserror"
+  ]
+}
