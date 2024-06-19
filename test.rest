@@ -1,0 +1,16 @@
+## 短链服务
+### url shortener
+POST http://localhost:9876/
+Content-Type: application/json
+
+{
+  "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422"
+}
+
+
+### url redirect
+Get http://127.0.0.1:9876/aMK9xo
+
+
+### url shortener not found
+Get http://127.0.0.1:9876/notfound

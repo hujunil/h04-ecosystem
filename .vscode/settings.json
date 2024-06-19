@@ -1,13 +1,17 @@
 {
   "cSpell.words": [
+    "Addrs",
+    "dashmap",
     "hget",
     "hgetall",
     "hmap",
     "hmget",
     "hset",
     "peekable",
+    "pkey",
     "sadd",
     "sismember",
+    "sqlx",
     "thiserror"
   ]
 }
