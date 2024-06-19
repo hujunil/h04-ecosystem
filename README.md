@@ -17,9 +17,9 @@ cargo run --bin chat
 特色：
 
 - 使用 `thiserror` 处理错误。
-- 为自定义错误对象 `ShortenerError` 实现 `axum::response::IntoResponse` trait
-- 插入短链时，如果 id 冲突，将重试 5 次
-- 链接了短链创建时间，和最近访问时间字段。
+- 为自定义错误对象 `ShortenerError` 实现 `axum::response::IntoResponse` trait。
+- 插入短链时，如果 id 冲突，将重试 5 次。
+- 新增了短链创建时间，和最近访问时间字段。
 
 环境准备
 
